@@ -369,14 +369,14 @@ body{
 
 .fourth_phrase1{
     font-family: "Epilogue", sans-serif;
-    width: 350px;
+    width: 300px;
     margin-top: 30px;
     text-align: justify;
 }
 
 .fourth_phrase {
     font-family: "Epilogue", sans-serif;
-    width: 350px;
+    width: 300px;
     margin-top: 10px;
     text-align: justify;
     margin-left: 100px;
@@ -401,7 +401,7 @@ body{
 }
 
 .sixth_block{
-    width: 300px;
+    width: 250px;
     border-radius: 2px;
     font-size: 12px;
 }
