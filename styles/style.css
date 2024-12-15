@@ -182,6 +182,7 @@ body{
 
 .rodape{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     background-color: #FFF1AA; /* Cor de fundo semelhante à imagem */
     padding: 40px;
@@ -218,6 +219,7 @@ body{
     padding: 36px;
     display: flex;
     border-radius: 50px;
+    font-weight: bolder;
     text-align: center;
     justify-content: center;
     margin: 150px auto;
@@ -257,6 +259,11 @@ body{
     color: black;
 }
 
+.direitos_footer{
+    flex: 100%; /* Força o texto a ocupar toda a largura disponível */
+    text-align: center; /* Centraliza o texto */
+    margin-top: 20px; /* Dá um espaçamento superior */
+}
 @media screen and (max-width: 1200px ){
     
 .title_empresa{
@@ -330,15 +337,6 @@ body{
 
 .img_about_us{
     margin: 50px auto;
-    height: 363px;
-    display: flex;
-    border-radius: 100px;
-    box-shadow: 2px 2px 20px black;
-    margin-bottom: 200px;
-}
-
-.img_about_us{
-    margin: 50px auto;
     height:  180px;
     display: flex;
     border-radius: 100px;
@@ -350,7 +348,7 @@ body{
 .fourth_block {
     display: flex;
     margin-left: -50px;
-    margin-right: 50px;
+    margin-right: -100px;
     margin-top: -300px;
 }
 
@@ -371,20 +369,17 @@ body{
 
 .fourth_phrase1{
     font-family: "Epilogue", sans-serif;
-    width: 300px;
+    width: 350px;
     margin-top: 30px;
     text-align: justify;
 }
 
 .fourth_phrase {
     font-family: "Epilogue", sans-serif;
-    width: 300px;
+    width: 350px;
     margin-top: 10px;
     text-align: justify;
-    width: 300px;
     margin-left: 100px;
-
-
 }
 
 .negrito_1, .negrito_2{
@@ -402,22 +397,12 @@ body{
 
 
 .fifth_block a {
-    text-decoration: none;
-    width: 300px;
-    background-color: #781A1A ;
-    color: #f5f5f9;
-    font-family: "Epilogue", sans-serif;
-    font-weight: 600;
-    display: flex;
-    justify-content: center;
-    margin: 100px auto;
-    padding: 30px 0px;
-    border-radius: 50px;
-    box-shadow: 2px 2px 10px black;
+    display: none;
 }
 
 .sixth_block{
-    width: 250px;
+    width: 300px;
+    border-radius: 2px;
     font-size: 12px;
 }
 
@@ -442,7 +427,7 @@ body{
     height: 200px;
     display: flex;
     margin-top: -50px;
-    margin-left: 15px;
+    margin-left: 40px;
 }
 
 .contato{
@@ -450,14 +435,14 @@ body{
     width: 300px;
     color: #f5f5f9;
     background-color: #781A1A;
-font-family: "Epilogue", sans-serif;
+    font-family: "Epilogue", sans-serif;
     padding: 20px;
     display: flex;
     border-radius: 50px;
     text-align: center;
     font-weight: bold;
     justify-content: center;
-    margin-top: 200px auto;
+    margin-top: 200px;
     box-shadow: 2px 2px 5px black;
 }
 
@@ -478,14 +463,14 @@ font-family: "Epilogue", sans-serif;
 
 .links_two{
     display: flex;
+    text-align: center;
     flex-direction: column;
     align-items: left;
-    padding-left: 50px;
 }
 
 .links_two a{
+    margin-top: 5px;
     font-size: 15px;
-    padding-top: 5px;
     text-decoration: none;
     color: black;
 }
@@ -502,4 +487,11 @@ font-family: "Epilogue", sans-serif;
     text-decoration: none;
     color: black;
 }
+
+.direitos_footer{
+    font-style: italic;
+    font-size: 12px;
+    margin-top: 50px;
+}
+
 }
