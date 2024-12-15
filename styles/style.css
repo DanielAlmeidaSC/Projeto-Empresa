@@ -1,0 +1,505 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    background-color: #f5f5f9;
+}
+
+
+.background_second_block{
+    margin-top: 0%;
+}
+
+.title_empresa{
+    font-family:  "Jomhuria", serif;
+    font-weight: 200;
+    font-size: 6rem;
+    text-align: center;
+    text-shadow: 2px 2px 2px black;
+    margin-top: 20px;
+}
+
+
+.navegation_empresa{
+    font-family:  "Montserrat Alternates", sans-serif;
+    display: flex;
+    gap: 40px;
+    justify-content: center; /*para deixar centralizado*/
+}
+
+.navegation_empresa a{
+    text-decoration: none;
+    color: black;
+}
+
+.title_welcome{
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 400;
+    text-shadow: 2px 10px 10px black;
+    text-align: center;
+    margin-top: 150px;
+    font-size: 4rem;
+}
+
+.subtitle_welcome{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 200 ;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.img_job{
+    margin: 40px auto;
+    display: flex;
+    width: 740px;
+    height: 451px;
+   border-radius: 50px;
+   box-shadow: 2px 2px 20px;
+   margin-bottom: 150px;
+}
+.second_block{    
+    width: 600px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    padding: 59px 100px;
+    border-radius: 100px;
+}
+
+
+.first_phrase{
+    color: aliceblue;
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.about_us{
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 150px;
+    font-size: 4rem;
+}
+
+.phrase_about{
+    font-family: "Josefin Sans", sans-serif; 
+    margin: 88px 30%;
+}
+
+.img_about_us{
+    margin: 50px auto;
+    height: 363px;
+    display: flex;
+    border-radius: 100px;
+    box-shadow: 2px 2px 20px black;
+    margin-bottom: 200px;
+}
+
+.fourth_block {
+    display: flex;
+    align-items: flex-start; /* Garante que os textos fiquem alinhados no topo */
+    justify-content: space-between; /* Distribui espaço entre os itens */
+    width: 100%; /* Usa toda a largura do contêiner pai */
+    flex-direction: column;
+}
+
+.fourth_title1{
+    font-family: "Encode Sans Condensed", sans-serif;
+    font-weight: 200;
+    margin-left: 100px;   
+}
+
+.fourth_title2{
+    font-family: "Encode Sans Condensed", sans-serif;
+    text-align: right;
+    font-weight: 200;
+    margin-left: auto;
+    margin-top: -96px;
+    margin-right: 100px;
+}
+
+.fourth_phrase1{
+    font-family: "Epilogue", sans-serif;
+    width: 500px;
+    display: flex;
+    margin-left: 100px;
+}
+
+.fourth_phrase {
+    font-family: "Epilogue", sans-serif;
+    text-align: right;
+    margin-right: 100px;
+    margin-left: auto;
+    width: 500px;
+}
+
+.negrito_1, .negrito_2{
+    font-weight: 500;
+}
+
+.img_experience{
+    margin: 50px auto;
+    display: flex;
+    height: 410px;
+    border-radius: 167px;
+    box-shadow: 2px 2px 50px black;
+}
+
+.fifth_block a {
+    text-decoration: none;
+    width: 500px;
+    background-color: #781A1A ;
+    color: #f5f5f9;
+    font-family: "Epilogue", sans-serif;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    margin: 100px auto;
+    padding: 30px 0px;
+    border-radius: 50px;
+    box-shadow: 2px 2px 10px black;
+}
+
+.sixth_block{
+    width: 600px;
+    background-color: black;
+    padding: 30px;
+    color: #f5f5f9;
+    font-family: "Miriam Libre", serif;
+    border-radius: 100px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 120px auto;
+    box-shadow: 2px 2px 10px black;
+
+}
+
+
+.rodape{
+    display: flex;
+    justify-content: space-between;
+    background-color: #FFF1AA; /* Cor de fundo semelhante à imagem */
+    padding: 40px;
+    font-family: Arial, sans-serif;
+}
+
+.seventh_block_title{
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 600;
+    font-size: 64px;
+    text-align: center;
+}
+
+.seventh_block_phrase{
+    text-align: center;
+    width: 500px;
+    font-size: 20px;
+    margin: 61px auto;
+    font-family: "Epilogue", sans-serif;
+}
+
+.img_computer{
+    height: 624px;
+    display: flex;
+    margin: -150px auto;
+}
+
+.contato{
+    text-decoration: none;
+    width: 500px;
+    color: #f5f5f9;
+    background-color: #781A1A;
+    font-family: "Epilogue", sans-serif;
+    padding: 36px;
+    display: flex;
+    border-radius: 50px;
+    text-align: center;
+    justify-content: center;
+    margin: 150px auto;
+    box-shadow: 2px 2px 5px black;
+}
+
+.links_one{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.links_one a{
+    text-decoration: none;
+    color: black;
+}
+
+.links_two{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+
+.links_two a{
+    text-decoration: none;
+    color: black;
+}
+
+.links_three{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+
+.links_three a{
+    text-decoration: none;
+    color: black;
+}
+
+@media screen and (max-width: 1200px ){
+    
+.title_empresa{
+    font-family:  "Jomhuria", serif;
+    font-weight: 200;
+    font-size: 6rem;
+    text-align: center;
+    text-shadow: 2px 2px 2px black;
+    margin-top: 20px;
+}
+
+
+.navegation_empresa{
+    font-family:  "Montserrat Alternates", sans-serif;
+    display: flex;
+    gap: 10px;
+    justify-content: center; /*para deixar centralizado*/
+    }   
+
+    .title_welcome{
+        font-family: "Josefin Sans", sans-serif;
+        font-weight: 400;
+        width: 70%;
+        margin: 100px auto;
+        text-shadow: 2px 10px 10px black;
+        text-align: center;
+        font-size: 2rem;
+    }
+
+    .subtitle_welcome{
+        font-weight: 200 ;
+        text-align: center;
+        margin-top: -70px;
+        justify-content: center;
+        display: flex;
+    }
+    
+    .img_job{
+        margin: 40px auto;
+        display: flex;
+        width: 300px;
+        height: 250px;
+       border-radius: 50px;
+       box-shadow: 2px 2px 20px;
+       margin-bottom: 150px;
+    }
+
+    .second_block{    
+        display: none;
+    }
+    
+    .first_phrase{
+        display: none;
+    }
+
+    
+
+.about_us{
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 4rem;
+}
+
+.phrase_about{
+    font-family: "Josefin Sans", sans-serif; 
+    margin: 10px 10%;
+    text-align: justify;
+}
+
+.img_about_us{
+    margin: 50px auto;
+    height: 363px;
+    display: flex;
+    border-radius: 100px;
+    box-shadow: 2px 2px 20px black;
+    margin-bottom: 200px;
+}
+
+.img_about_us{
+    margin: 50px auto;
+    height:  180px;
+    display: flex;
+    border-radius: 100px;
+    box-shadow: 2px 2px 20px black;
+    margin-bottom: 200px;
+}
+
+
+.fourth_block {
+    display: flex;
+    margin-left: -50px;
+    margin-right: 50px;
+    margin-top: -300px;
+}
+
+.fourth_title1{
+    font-family: "Encode Sans Condensed", sans-serif;
+    font-weight: 200;
+    margin-top: 200px;
+}
+
+
+
+.fourth_title2{
+    font-family: "Encode Sans Condensed", sans-serif;
+    font-weight: 200;
+    margin-top: 50px;
+    width: 370px;
+}
+
+.fourth_phrase1{
+    font-family: "Epilogue", sans-serif;
+    width: 300px;
+    margin-top: 30px;
+    text-align: justify;
+}
+
+.fourth_phrase {
+    font-family: "Epilogue", sans-serif;
+    width: 300px;
+    margin-top: 10px;
+    text-align: justify;
+    width: 300px;
+    margin-left: 100px;
+
+
+}
+
+.negrito_1, .negrito_2{
+    font-weight: 500;
+}
+
+.img_experience{
+    margin: 50px auto;
+    display: flex;
+    height: 200px;
+    width: 300px;
+    border-radius: 167px;
+    box-shadow: 2px 2px 50px black;
+}
+
+
+.fifth_block a {
+    text-decoration: none;
+    width: 300px;
+    background-color: #781A1A ;
+    color: #f5f5f9;
+    font-family: "Epilogue", sans-serif;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    margin: 100px auto;
+    padding: 30px 0px;
+    border-radius: 50px;
+    box-shadow: 2px 2px 10px black;
+}
+
+.sixth_block{
+    width: 250px;
+    font-size: 12px;
+}
+
+.seventh_block_title{
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 600;
+    width: 300px;
+    margin: auto;
+    font-size: 32px;
+}
+
+.seventh_block_phrase{
+    text-align: center;
+    width: 300px;
+    text-align: justify;
+    font-size: 18px;
+    margin: 61px auto;
+    font-family: "Epilogue", sans-serif;
+}
+
+.img_computer{
+    height: 200px;
+    display: flex;
+    margin-top: -50px;
+    margin-left: 15px;
+}
+
+.contato{
+    text-decoration: none;
+    width: 300px;
+    color: #f5f5f9;
+    background-color: #781A1A;
+font-family: "Epilogue", sans-serif;
+    padding: 20px;
+    display: flex;
+    border-radius: 50px;
+    text-align: center;
+    font-weight: bold;
+    justify-content: center;
+    margin-top: 200px auto;
+    box-shadow: 2px 2px 5px black;
+}
+
+
+.links_one{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+
+.links_one a{
+    text-decoration: none;
+    color: black;
+    padding-top: 2px;
+    font-size: 15px;
+}
+
+.links_two{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    padding-left: 50px;
+}
+
+.links_two a{
+    font-size: 15px;
+    padding-top: 5px;
+    text-decoration: none;
+    color: black;
+}
+
+.links_three{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+
+.links_three a{
+    font-size: 15px;
+    padding-top: 5px;
+    text-decoration: none;
+    color: black;
+}
+}
